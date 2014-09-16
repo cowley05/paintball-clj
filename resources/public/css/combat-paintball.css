@@ -1,0 +1,271 @@
+.navbar-logo {
+    margin-top: 7px;
+    /*margin-right: 10px;*/
+}
+
+.navbar {
+    margin-bottom: 0;
+    /*border-bottom: 1px solid rgba(255,255,255,.3);*/
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #3E3E3E;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: #fff;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li.active {
+    outline: 0;
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-toggle:focus,
+.navbar-toggle:active {
+    outline: 0;
+}
+
+@media (min-width: 767px) {
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #3E3E3E;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        /*border-bottom: 1px solid rgba(255,255,255,.3);*/
+    }
+}
+
+.white-space {
+    margin-top: 100px;
+}
+
+.title {
+    color: rgb(90, 90, 90);
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#map_canvas {
+    width: 450px;
+    height: 450px;
+}
+
+#cover1 {
+    background: url('../img/gallery/originals/IMG_20140712_124950_1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cover2 {
+    background: url('../img/gallery/originals/IMG_20140712_142141_1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cover3 {
+    background: url('../img/gallery/originals/IMG_20140712_132304_1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption a:hover.stand_out,
+.carousel-caption a:link.stand_out,
+.carousel-caption a:active.stand_out,
+.carousel-caption a:visited.stand_out {
+    color: #f8f803;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#links a img {
+    margin-bottom: 3px;
+}
+
+.prices-header {
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+}
+
+.prices-header a,
+.prices-header a :hover {
+    color: #999;
+    text-decoration: none;
+}
+
+#price-table a {
+    font-size: 18px;
+    font-family: 'Open Sans';
+    color: white;
+    text-decoration: none;
+}
+
+#price-table sup {
+    font-size: 40px;
+}
+
+#price-table ul {
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    color: #9095aa;
+    padding: 0px;
+    margin: 0px;
+}
+
+#price-table li {
+    border-bottom: 1px solid #494a5a;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    height: 52px;
+    line-height: 52px;
+}
+
+#price-table {
+    width: 100%;
+    text-align: center;
+}
+
+#price-table .whole {
+    display: inline-block;
+}
+
+#price-table .type {
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #eac80d;
+    height: 62px;
+    border-bottom: 3px solid #bfa30c;
+
+}
+
+#price-table .type p {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#price-table .plan {
+    width: 300px;
+    background-color: #2b2937;
+
+    border-radius: 0px 0px 5px 5px;
+    font-family: 'Open Sans';
+    font-style: condensed;
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
+#price-table .deal-one {
+    margin-top: 29px;
+    background-color: #1abc9c;
+    border-bottom: 3px solid #18937b;
+}
+
+#price-table .deal-two {
+    margin-top: 29px;
+    background-color: #5d6a9a;
+    border-bottom: 3px solid #474f6f;
+}
+
+#price-table .deal-three {
+    margin-top: 29px;
+    background-color: #6E9A5D;
+    border-bottom: 3px solid #557948;
+}
+
+#price-table .deal-four {
+    margin-top: 29px;
+    background-color: #EC4E4E;
+    border-bottom: 3px solid #C44040;
+}
+
+#price-table .deal-five {
+    margin-top: 29px;
+    background-color: #5CDEF6;
+    border-bottom: 3px solid #46A9BB;
+}
+
+#price-table .header {
+    border-bottom: 1px solid #494a5a;
+    padding-bottom: 39px;
+}
+
+#price-table .header span {
+    font-size: 32px;
+}
+
+#price-table .month {
+    font-size: 14px;
+    color: #575757;
+    padding: 0px;
+    margin: -10px;
+}
+
+#price-table .price {
+    height: 80px;
+}
+
+#price-table .cart {
+    color: white;
+    position: relative;
+    top: 16px;
+}
+
+#price-caption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2px;
+}
