@@ -10,4 +10,5 @@
                       [environ/environ.lein "0.2.1"]]
             :hooks [environ.leiningen.hooks]
             :ring {:handler paintball-clj.handler/app}
+            :uberjar-name "paintball-clj-standalone.jar"
             :profiles {:production {:env {:production true}}})

@@ -1,0 +1,1 @@
+web: java $JVM_OPTS -cp target/paintball-clj-standalone.jar clojure.main -m paintball-clj.web
