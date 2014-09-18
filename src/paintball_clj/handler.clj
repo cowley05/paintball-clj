@@ -10,7 +10,7 @@
             [environ.core :refer [env]]))
 
 (defroutes app
-           (GET "/" [] (resource-response "index.html" {:root "public"}))
+           (GET "/" [] (resource-response "index.html" {:root "public/templates"}))
            (route/resources "/")
            (route/not-found "Not Found"))
 
