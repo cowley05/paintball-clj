@@ -89,7 +89,6 @@
 }
 
 #cover1 {
-
     background: url('../img/gallery/carousel/carousel_1.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -149,10 +148,6 @@ a:hover {
 
 .price-table sup {
     font-size: 40px;
-}
-
-.price-table li sup {
-    font-size: 12px;
 }
 
 .price-table ul {
@@ -256,9 +251,9 @@ a:hover {
     font-size: 32px;
 }
 
-.price-table .month {
+.price-table .price-sub-text {
     font-size: 14px;
-    color: #575757;
+    color: white;
     padding: 0px;
     margin: -10px;
 }
@@ -271,6 +266,10 @@ a:hover {
     color: white;
     position: relative;
     top: 26px;
+}
+
+.price-sub-text .offer-excludes {
+    font-size: 12px;
 }
 
 .small-print {
